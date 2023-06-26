@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy BirthDay</title>
+    
+    <style type="text/css">
+      * {
+        background: #fa7d7d;
+        margin: 0;
+        padding: 0;
+      }
+
+      #loveHeart {
+        background: transparent;
+        background: url("smile.gif") no-repeat center;
+      }
+      #copyright {
+        font-family: "Montserrat", sans-serif;
+      }
+      #copyright a {
+        text-decoration: none;
+      }
+      #copyright a:hover {
+        text-decoration: none;
+        color: royalblue;
+      }
+      #hbd_song {
+        display: none;
+      }
+      #disc {
+        color: lightgray;
+        font-weight: bold;
+        font-size: 13px;
+      }
+     
+    </style>
+
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/birthday.js"></script>
+    <script type="text/javascript" src="js/hbd.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css"
+    />
+  </head>
+  <body style="background-color: #fa7d7d;">
+    <audio loop autoplay>
+      <source src="At-My-Worst---Pink-Sweats(PagalWorld).mp3" type="audio/mpeg">
+    </audio>
+    <div class="section" style="padding-top: 10px; margin-top: 55px;">
+      <br />
+      <br />
+      <br />
+      <div class="columns">
+        <div id="code" class="column is-6 is-offset-2">
+          <center><h1>Happy BirthDay Bittu</h1></center>
+					<span class="comments">/**</span><br />
+					<span class="space" /><span class="comments">* Today, the 26th day of June, is your Birthday.</span><br />
+					<span class="space" /><span class="comments">* So I tried to make something in our coder's way to celebrate this very special day for my specaial person .</span><br />
+					<span class="space" /><span class="comments">*/</span><br />
+					<span class="comments">// June 26th,the new year of your life starts with new journey . </span><br />
+				
+					SELECT birthday_wish FROM wishes WHERE recipient = 'cloudDevOpsGuru';
+          -- Happy birthday! 🎉 May your code be clean, your deployments smooth, and your infrastructure always scalable. Have a fantastic day! 🍰🥳 <br />
+
+					</br>
+					<span class="comments">// My best wishes will be with you always.</span><br />
+					<span class="keyword">new</span> Thread() { <br />
+					@Override </br>
+					<span class="comments">// Forever and ever. I wish</span><br />
+					while(true) {</br>
+					<span class="comments">// luckiness, will increase this year will come with some good things for you</span><br />
+					u.fortune ++;</br>
+					<span class="comments">// happiness,</span><br />
+					u.happiness ++;</br>
+					<span class="comments">// and everything you wish can be achieved. </span><br />
+					}.start()</br>
+					<span class="comments">// The last thing I wanna say:</span><br />
+					System.out.println(<span class="string">"Happy Birthday!!"</span>);<br />
+          if (nothing) {<br />
+            <span class="string">"I am with you, Always and Forever."</span>;<br />
+          };
+				</div>
+				<div id="loveHeart" class="is-4 column">
+					<canvas id="garden" style="display:none"></canvas>
+					
+				</div>
+      </div>
+      
+			<hr />
+			<div class="columns">
+				<div class="column is-12" id="copyright">
+					<center>
+						<h1> <b>Always smile because your smile is the source of others smile around☺️ ❤️ . </b> <h1/>
+					</center>
+				</div>
+			</div>
+    </div>
+    <script type="text/javascript">
+      var offsetX = $("#loveHeart").width() / 2;
+      var offsetY = $("#loveHeart").height() / 2 - 55;
+      var together = new Date();
+      together.setFullYear(1999, 5, 29);
+      together.setHours(8);
+      together.setMinutes(0);
+      together.setSeconds(0);
+      together.setMilliseconds(0);
+
+      if (!document.createElement("canvas").getContext) {
+        var msg = document.createElement("div");
+        msg.id = "errorMsg";
+        msg.innerHTML = "Sorry, browser doesn't support this!";
+        document.body.appendChild(msg);
+        $("#code").css("display", "none");
+        $("#copyright").css("position", "absolute");
+        $("#copyright").css("bottom", "10px");
+        document.execCommand("stop");
+      } else {
+        adjustCodePosition();
+        $("#code").typewriter();
+      }
+    </script>
+  </body>
+</html>
